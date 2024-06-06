@@ -1,5 +1,7 @@
 <form action="<%= url('/projects/new')%>" method = "post">
-    <label for = "name"> Project Name</label>
-    <input type = "text" id = "name" name = "name" required /> 
-    <button>Submit</button>
+    <div class = "form-group">
+        <label for = "name"> Project Name</label>
+        <input class = "form-control"type = "text" id = "name" name = "name" required /> 
+    </div>
+    <button class = "btn btn-primary">Submit</button>
 </form>
