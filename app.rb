@@ -32,4 +32,8 @@ class App < Sinatra::Base
   get '/projects/new' do
     erb(:new_project)
   end
+  
+    post '/projects/new' do
+      "Hello world"
+    end
 end
